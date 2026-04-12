@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nissni.github.io/ksc-website/sitemap.xml
