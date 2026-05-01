@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系我们 — 高顺昌 KSC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="nav-logo">
+    <img src="images/ksc-logo-red.jpeg" class="nav-logo-img" alt="KSC" onerror="this.style.display='none'">
+    <div class="nav-logo-text">
+      <span class="nav-logo-name">高顺昌 KSC</span>
+      <span class="nav-logo-sub">金属材料专家</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-i18n="nav" data-i18n-key="home">首页</a></li>
+    <li><a href="about.html" data-i18n="nav" data-i18n-key="about">关于我们</a></li>
+    <li><a href="products.html" data-i18n="nav" data-i18n-key="products">产品中心</a></li>
+    <li><a href="factory.html" data-i18n="nav" data-i18n-key="factory">生产基地</a></li>
+    <li><a href="contact.html" class="active" data-i18n="nav" data-i18n-key="contact">联系我们</a></li>
+  </ul>
+  <div class="lang-switcher">
+    <button class="lang-btn"><span class="lang-current-label">ZH</span><span>&#9660;</span></button>
+    <div class="lang-dropdown">
+      <div class="lang-option active" data-lang="zh">ZH 中文</div>
+      <div class="lang-option" data-lang="en">EN English</div>
+      <div class="lang-option" data-lang="th">TH Thai</div>
+      <div class="lang-option" data-lang="vi">VN Tieng Viet</div>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header" style="background:url('images/factory-overview.jpeg') center/cover">
+  <div class="page-header-overlay"></div>
+  <div class="page-header-content">
+    <h1 data-i18n="sec" data-i18n-key="contact_h">联系我们</h1>
+    <p data-i18n="sec" data-i18n-key="contact_p">期待与您携手合作</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h3>我们的据点 Our Locations</h3>
+
+      <div class="contact-item">
+        <div class="contact-icon">🏢</div>
+        <div class="contact-detail">
+          <h4>香港总部 HQ Hong Kong</h4>
+          <p>Kao Shun Cheong Holdings Co., Ltd.</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon">🇨🇳</div>
+        <div class="contact-detail">
+          <h4>深圳/东莞工厂 Shenzhen/Dongguan Plant</h4>
+          <p>广东省，中国 Guangdong, China</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon">🇨🇳</div>
+        <div class="contact-detail">
+          <h4>苏州工厂 Suzhou Plant</h4>
+          <p>江苏省，中国 Jiangsu, China</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon">🇨🇳</div>
+        <div class="contact-detail">
+          <h4>新余工厂 Xinyu Plant</h4>
+          <p>江西省，中国 Jiangxi, China</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon">🇻🇳</div>
+        <div class="contact-detail">
+          <h4>越南工厂 Haiphong Plant</h4>
+          <p>海防，越南 Haiphong, Vietnam</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon">🇹🇭</div>
+        <div class="contact-detail">
+          <h4>泰国工厂 Chon Buri Plant</h4>
+          <p>春武里，泰国 Chon Buri, Thailand</p>
+        </div>
+      </div>
+
+      <!-- Sales Rep Contact -->
+      <div style="margin-top:30px;padding:24px;background:var(--primary);border-radius:16px;color:white">
+        <h4 style="font-size:15px;font-weight:800;margin-bottom:16px;color:var(--accent)">销售代表 Sales Representative</h4>
+        <div style="font-size:15px;line-height:2.2">
+          <div style="margin-bottom:6px">
+            <span style="font-weight:700;color:var(--accent)">👤 姓名：</span>
+            <span>胡健</span>
+          </div>
+          <div style="margin-bottom:6px">
+            <span style="font-weight:700;color:var(--accent)">📱 手机：</span>
+            <a href="tel:13691649422" style="color:white;text-decoration:none">136 9164 9422</a>
+          </div>
+          <div>
+            <span style="font-weight:700;color:var(--accent)">📧 邮箱：</span>
+            <a href="mailto:hujian@kscsteel.net" style="color:white;text-decoration:none">hujian@kscsteel.net</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <input type="text" placeholder="您的姓名 / Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="您的邮箱 / Your Email" required>
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="公司名称 / Company Name">
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="咨询产品 / Product Interest (如: 特钢/铝材/不锈钢)">
+        </div>
+        <div class="form-group">
+          <textarea placeholder="请输入您的留言... / Your Message..."></textarea>
+        </div>
+        <button type="submit" class="form-submit">发送留言 Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div style="text-align:center;padding-top:30px">
+    <p style="opacity:0.5;font-size:13px" data-i18n="footer" data-i18n-key="copy">&copy; 2025 高顺昌控股有限公司 保留所有权利</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+<script>
+function handleSubmit(e) {
+  e.preventDefault();
+  const btn = e.target.querySelector('.form-submit');
+  btn.textContent = '已发送 ✓';
+  btn.style.background = '#2ecc71';
+  setTimeout(() => {
+    btn.textContent = '发送留言 Send Message';
+    btn.style.background = '';
+    e.target.reset();
+  }, 3000);
+}
+</script>
+</body>
+</html>

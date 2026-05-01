@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于我们 — 高顺昌 KSC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="nav-logo">
+    <img src="images/ksc-logo-red.jpeg" class="nav-logo-img" alt="KSC" onerror="this.style.display='none'">
+    <div class="nav-logo-text">
+      <span class="nav-logo-name">高顺昌 KSC</span>
+      <span class="nav-logo-sub">金属材料专家</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-i18n="nav" data-i18n-key="home">首页</a></li>
+    <li><a href="about.html" class="active" data-i18n="nav" data-i18n-key="about">关于我们</a></li>
+    <li><a href="products.html" data-i18n="nav" data-i18n-key="products">产品中心</a></li>
+    <li><a href="factory.html" data-i18n="nav" data-i18n-key="factory">生产基地</a></li>
+    <li><a href="contact.html" data-i18n="nav" data-i18n-key="contact">联系我们</a></li>
+  </ul>
+  <div class="lang-switcher">
+    <button class="lang-btn"><span class="lang-current-label">ZH</span><span>&#9660;</span></button>
+    <div class="lang-dropdown">
+      <div class="lang-option active" data-lang="zh">ZH 中文</div>
+      <div class="lang-option" data-lang="en">EN English</div>
+      <div class="lang-option" data-lang="th">TH Thai</div>
+      <div class="lang-option" data-lang="vi">VN Tieng Viet</div>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header" style="background:url('images/factory-overview.jpeg') center/cover">
+  <div class="page-header-overlay"></div>
+  <div class="page-header-content">
+    <h1 data-i18n="sec" data-i18n-key="about_h">关于我们 About Us</h1>
+    <p data-i18n="sec" data-i18n-key="about_p">高顺昌控股有限公司，25年深耕金属材料行业</p>
+  </div>
+</div>
+
+<!-- GROUP PROFILE -->
+<section class="section">
+  <div class="section-title">
+    <h2>集团简介 Group Profile</h2>
+  </div>
+  <div style="max-width:1000px;margin:0 auto">
+    <div style="background:var(--gray-light);border-radius:20px;padding:40px;border-left:5px solid var(--accent)">
+      <h3 style="font-size:20px;font-weight:800;color:var(--primary);margin-bottom:16px">高顺昌控股有限公司<br><span style="font-size:14px;font-weight:400;color:var(--gray)">Kao Shun Cheong Holdings Co., Ltd.</span></h3>
+      <p style="font-size:15px;color:var(--text);line-height:1.9" data-i18n="about" data-i18n-key="p1">高顺昌控股有限公司（KSC）成立于2000年，总部位于香港，是一家专业从事特钢、矽钢片、铝材、不锈钢、铜材等金属材料贸易及加工服务的综合性企业。KSC在华南地区中高碳钢销量领先，深耕行业超过25年。旗下深圳/东莞、苏州、新余、越南、泰国五大生产基地覆盖中国、越南及泰国市场。</p>
+    </div>
+  </div>
+</section>
+
+<!-- CUSTOMERS -->
+<section class="section alt-bg">
+  <div class="section-title">
+    <h2 data-i18n="sec" data-i18n-key="cust_h">一流客户 First-Rate Customers</h2>
+    <p data-i18n="sec" data-i18n-key="cust_p">我们为众多世界500强企业提供产品与服务</p>
+  </div>
+  <div style="text-align:center;max-width:900px;margin:0 auto">
+    <img src="images/customer-fullcontent.jpeg" alt="Customers" style="width:100%;border-radius:16px;border:2px solid #e5e7eb">
+  </div>
+</section>
+
+<!-- CERTS -->
+<section class="section">
+  <div class="section-title">
+    <h2>荣誉资质 Enterprise Honor</h2>
+  </div>
+  <div class="certs-grid">
+    <div class="cert-badge"><div class="cert-name">ISO 9001</div><div class="cert-sub">2015 质量管理</div></div>
+    <div class="cert-badge"><div class="cert-name">ISO 14001</div><div class="cert-sub">2015 环境管理</div></div>
+    <div class="cert-badge"><div class="cert-name">ISO 45001</div><div class="cert-sub">2018 职业健康</div></div>
+    <div class="cert-badge"><div class="cert-name">IATF 16949</div><div class="cert-sub">汽车行业认证</div></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div style="text-align:center;padding-top:30px">
+    <p style="opacity:0.5;font-size:13px" data-i18n="footer" data-i18n-key="copy">&copy; 2025 高顺昌控股有限公司 保留所有权利</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

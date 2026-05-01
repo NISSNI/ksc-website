@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>生产基地 — 高顺昌 KSC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="nav-logo">
+    <img src="images/ksc-logo-red.jpeg" class="nav-logo-img" alt="KSC" onerror="this.style.display='none'">
+    <div class="nav-logo-text">
+      <span class="nav-logo-name">高顺昌 KSC</span>
+      <span class="nav-logo-sub">金属材料专家</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-i18n="nav" data-i18n-key="home">首页</a></li>
+    <li><a href="about.html" data-i18n="nav" data-i18n-key="about">关于我们</a></li>
+    <li><a href="products.html" data-i18n="nav" data-i18n-key="products">产品中心</a></li>
+    <li><a href="factory.html" class="active" data-i18n="nav" data-i18n-key="factory">生产基地</a></li>
+    <li><a href="contact.html" data-i18n="nav" data-i18n-key="contact">联系我们</a></li>
+  </ul>
+  <div class="lang-switcher">
+    <button class="lang-btn"><span class="lang-current-label">ZH</span><span>&#9660;</span></button>
+    <div class="lang-dropdown">
+      <div class="lang-option active" data-lang="zh">ZH 中文</div>
+      <div class="lang-option" data-lang="en">EN English</div>
+      <div class="lang-option" data-lang="th">TH Thai</div>
+      <div class="lang-option" data-lang="vi">VN Tieng Viet</div>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header" style="background:url('images/factory-overview.jpeg') center/cover">
+  <div class="page-header-overlay"></div>
+  <div class="page-header-content">
+    <h1 data-i18n="sec" data-i18n-key="fac_h">五大生产基地</h1>
+    <p data-i18n="sec" data-i18n-key="fac_p">覆盖中国、越南、泰国，加工产能领先</p>
+  </div>
+</div>
+
+<!-- PROCESS OVERVIEW -->
+<section class="section alt-bg">
+  <div class="section-title">
+    <h2>加工业务介绍 Processing Introduction</h2>
+    <p>四大核心加工能力</p>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;max-width:1000px;margin:0 auto;text-align:center">
+    <div style="background:white;border-radius:16px;padding:28px;box-shadow:0 4px 20px rgba(0,0,0,0.07)">
+      <div style="font-size:40px;margin-bottom:12px">✂️</div>
+      <h3 style="font-size:15px;font-weight:800;color:var(--primary)">分条/纵剪 Slitting</h3>
+    </div>
+    <div style="background:white;border-radius:16px;padding:28px;box-shadow:0 4px 20px rgba(0,0,0,0.07)">
+      <div style="font-size:40px;margin-bottom:12px">📏</div>
+      <h3 style="font-size:15px;font-weight:800;color:var(--primary)">剪板/横切 Shearing</h3>
+    </div>
+    <div style="background:white;border-radius:16px;padding:28px;box-shadow:0 4px 20px rgba(0,0,0,0.07)">
+      <div style="font-size:40px;margin-bottom:12px">⚙️</div>
+      <h3 style="font-size:15px;font-weight:800;color:var(--primary)">压延/冷轧 Cold-Rolling</h3>
+    </div>
+    <div style="background:white;border-radius:16px;padding:28px;box-shadow:0 4px 20px rgba(0,0,0,0.07)">
+      <div style="font-size:40px;margin-bottom:12px">🔥</div>
+      <h3 style="font-size:15px;font-weight:800;color:var(--primary)">退火/球化退火 Annealing</h3>
+    </div>
+  </div>
+</section>
+
+<!-- FACTORY CARDS -->
+<section class="section">
+  <div class="factory-grid">
+
+    <div class="factory-card">
+      <img src="images/factory-dongguan.jpeg" class="factory-card-img" alt="Dongguan">
+      <div class="factory-card-body">
+        <h3 data-i18n="fac" data-i18n-key="dg">东莞工厂</h3>
+        <div class="location">广东，中国 Dongguan, Guangdong</div>
+        <div class="capabilities">
+          <span class="cap-tag">分条 Slitting</span>
+          <span class="cap-tag">剪板 Shearing</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="factory-card">
+      <img src="images/factory-suzhou.jpeg" class="factory-card-img" alt="Suzhou">
+      <div class="factory-card-body">
+        <h3 data-i18n="fac" data-i18n-key="sz">苏州工厂</h3>
+        <div class="location">江苏，中国 Suzhou, Jiangsu</div>
+        <div class="capabilities">
+          <span class="cap-tag">分条 Slitting</span>
+          <span class="cap-tag">剪板 Shearing</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="factory-card">
+      <img src="images/factory-xinyu.jpeg" class="factory-card-img" alt="Xinyu">
+      <div class="factory-card-body">
+        <h3 data-i18n="fac" data-i18n-key="xy">新余工厂</h3>
+        <div class="location">江西，中国 Xinyu, Jiangxi</div>
+        <div class="capabilities">
+          <span class="cap-tag">冷轧 Cold-Rolling</span>
+          <span class="cap-tag">退火 Annealing</span>
+          <span class="cap-tag">分条 Slitting</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="factory-card">
+      <img src="images/factory-vietnam.jpeg" class="factory-card-img" alt="Vietnam">
+      <div class="factory-card-body">
+        <h3 data-i18n="fac" data-i18n-key="vn">越南海防工厂</h3>
+        <div class="location">越南 Haiphong, Vietnam</div>
+        <div class="capabilities">
+          <span class="cap-tag">分条 Slitting</span>
+          <span class="cap-tag">剪板 Shearing</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="factory-card">
+      <img src="images/factory-thailand.jpeg" class="factory-card-img" alt="Thailand">
+      <div class="factory-card-body">
+        <h3 data-i18n="fac" data-i18n-key="th">泰国春武里工厂</h3>
+        <div class="location">泰国 Chon Buri, Thailand</div>
+        <div class="capabilities">
+          <span class="cap-tag">分条 Slitting</span>
+          <span class="cap-tag">剪板 Shearing</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div style="text-align:center;padding-top:30px">
+    <p style="opacity:0.5;font-size:13px" data-i18n="footer" data-i18n-key="copy">&copy; 2025 高顺昌控股有限公司 保留所有权利</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
